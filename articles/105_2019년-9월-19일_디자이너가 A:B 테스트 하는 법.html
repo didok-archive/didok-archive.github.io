@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<title>[디독] 디자이너가 A/B 테스트 하는 법🙆🙅</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=yes,width=device-width,height=device-height" />
+	<meta name="description" content=" " />
+	<meta name="twitter:title" content="[디독] 디자이너가 A/B 테스트 하는 법🙆🙅" />
+	<meta name="twitter:description" content=" " />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@stibeemail" />
+	<meta property="og:url" content="https://stib.ee/whk1" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="[디독] 디자이너가 A/B 테스트 하는 법🙆🙅" />
+	<meta property="og:description" content=" " />
+	<meta property="og:image" content="" />
+	<meta property="fb:app_id" content="966242223397117" />
+	<link rel="stylesheet" type="text/css" href="/assets/css/public_email.css">
+
+<meta name="robots" content="noindex">
+</head>
+<body>
+	<div class="public-email">
+		<div class="inner">
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<meta charset="UTF-8">
+<style>
+@media only screen and (max-width:640px){
+	.stb-left-cell,
+	.stb-right-cell {max-width:100%!important;width:100%!important;}
+	.stb-left-cell img,
+	.stb-right-cell img {width: 100%;height: auto;}
+	.stb-left-cell > div {padding: 5px 10px!important;box-sizing: border-box;}
+	.stb-right-cell > div {padding: 5px 10px!important;box-sizing: border-box;}
+	.stb-cell-wrap {padding:0 0 0 0!important;}
+	.stb-cell-wrap > tr > td {padding:0 0!important;}
+	.stb-cell-wrap > tbody > tr > td {padding:0 0!important;}
+	.stb-cell-wrap > tbody > tr > td.stb-text-box {padding:0 10px!important;}
+	.stb-left-cell > div.stb-text-box {padding:5px 10px!important;}
+    .stb-right-cell > div.stb-text-box {padding:5px 10px!important;}
+	.stb-container {width: 100%!important}
+	.stb-container * {line-height: 1.8!important;}
+	.stb-container a {text-decoration: underline;}
+}
+</style>
+</head>
+<body>
+<table class="stb-container" cellpadding="0" cellspacing="0" align="center" style="margin: 0px auto; width: 94%; max-width: 640px; background: rgb(255, 255, 255); border: 0px;">
+	<tbody><tr style="margin: 0;padding:0;">
+		<td style="width: 100%; max-width: 630px; margin: 0 auto; position: relative; border-spacing: 0; clear: both; border-collapse: separate;padding:0;overflow:hidden;_width:620px;">
+
+			<div style="height: 0px; max-height: 0px; border-width: 0px; border-color: initial; border-image: initial; visibility: hidden; line-height: 0px; font-size: 0px; overflow: hidden;display:none;">
+				 
+			</div>
+<table class="stb-block" border="0" cellpadding="0" cellspacing="0" style="overflow: hidden; margin: 0px auto; padding: 0px; width:100%;max-width: 630px; clear: both; background: none;border:0;" width="100%">
+	<tbody><tr>
+		<td style="padding: 15px 0 15px 0; line-height: 1.8; border-width: 0px;font-size: 14px;">
+			<table class="stb-cell-wrap" border="0" cellpadding="0" cellspacing="0" style="padding: 0px 5px;" width="100%">
+				<tbody><tr>
+					<td class="stb-text-box" style="padding: 0px 10px;mso-line-height-rule: exactly;line-height:1.8;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;font-size: 14px;font-family: AppleSDGothic, apple sd gothic neo, noto sans korean, noto sans korean regular, noto sans cjk kr, noto sans cjk, nanum gothic, malgun gothic, dotum, arial, helvetica, MS Gothic, sans-serif!important; color: #333333" width="100%">
+						
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+<table class="stb-block" border="0" cellpadding="0" cellspacing="0" style="overflow: hidden; margin: 0px auto; padding: 0px; width:100%;max-width: 630px; clear: both; background: none; border:0;" width="100%;">
+	<tbody><tr>
+		<td style="padding: 15px 0 15px 0; line-height: 1.8; border-width: 0px;">
+			<table class="stb-cell-wrap" border="0" cellpadding="0" cellspacing="0" style="padding: 0px 5px;table-layout:fixed" width="100%">
+				<tbody><tr>
+					<td style="padding: 0px 10px;" width="100%">
+						<div>
+							<p style="text-align: justify; margin: 0px;width:100%">
+								
+									<img alt="" src="https://img.stibee.com/15109_1553820729.png" style="width: 100%; display: inline; vertical-align: middle; max-width: 100%; border-width: 0px; border-color: initial; border-image: initial; text-align: justify;" width="610">
+								
+							</p>
+						</div>
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+
+<table class="stb-block" border="0" cellpadding="0" cellspacing="0" style="overflow: hidden; margin: 0px auto; padding: 0px; width:100%;max-width: 630px; clear: both; background: none;border:0;" width="100%">
+	<tbody><tr>
+		<td style="padding: 15px 0 15px 0; line-height: 1.8; border-width: 0px;font-size: 14px;">
+			<table class="stb-cell-wrap" border="0" cellpadding="0" cellspacing="0" style="padding: 0px 5px;" width="100%">
+				<tbody><tr>
+					<td class="stb-text-box" style="padding: 0px 10px;mso-line-height-rule: exactly;line-height:1.8;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;font-size: 14px;font-family: AppleSDGothic, apple sd gothic neo, noto sans korean, noto sans korean regular, noto sans cjk kr, noto sans cjk, nanum gothic, malgun gothic, dotum, arial, helvetica, MS Gothic, sans-serif!important; color: #333333" width="100%">
+						<div style="text-align: center;"><span style="color: rgb(51, 51, 51); font-family: AppleSDGothic, &quot;apple sd gothic neo&quot;, &quot;noto sans korean&quot;, &quot;noto sans korean regular&quot;, &quot;noto sans cjk kr&quot;, &quot;noto sans cjk&quot;, &quot;nanum gothic&quot;, &quot;malgun gothic&quot;, dotum, arial, helvetica, MS Gothic, sans-serif; font-style: normal; font-weight: bold;">D</span><span style="color: rgb(51, 51, 51); font-family: AppleSDGothic, &quot;apple sd gothic neo&quot;, &quot;noto sans korean&quot;, &quot;noto sans korean regular&quot;, &quot;noto sans cjk kr&quot;, &quot;noto sans cjk&quot;, &quot;nanum gothic&quot;, &quot;malgun gothic&quot;, dotum, arial, helvetica, MS Gothic, sans-serif; font-style: normal;">esign + 읽을</span><span style="color: rgb(51, 51, 51); font-family: AppleSDGothic, &quot;apple sd gothic neo&quot;, &quot;noto sans korean&quot;, &quot;noto sans korean regular&quot;, &quot;noto sans cjk kr&quot;, &quot;noto sans cjk&quot;, &quot;nanum gothic&quot;, &quot;malgun gothic&quot;, dotum, arial, helvetica, MS Gothic, sans-serif; font-style: normal; font-weight: bold;"> 독</span></div><div style="text-align: center;"><span style="color: rgb(51, 51, 51); font-family: AppleSDGothic, &quot;apple sd gothic neo&quot;, &quot;noto sans korean&quot;, &quot;noto sans korean regular&quot;, &quot;noto sans cjk kr&quot;, &quot;noto sans cjk&quot;, &quot;nanum gothic&quot;, &quot;malgun gothic&quot;, dotum, arial, helvetica, MS Gothic, sans-serif; font-style: normal;">해외 디자인 아티클 번역 뉴스레터,&nbsp;</span><span style="color: rgb(51, 51, 51); font-family: AppleSDGothic, &quot;apple sd gothic neo&quot;, &quot;noto sans korean&quot;, &quot;noto sans korean regular&quot;, &quot;noto sans cjk kr&quot;, &quot;noto sans cjk&quot;, &quot;nanum gothic&quot;, &quot;malgun gothic&quot;, dotum, arial, helvetica, MS Gothic, sans-serif; font-style: normal;">읽는 디자인 </span><span style="font-weight: bold; font-family: AppleSDGothic, &quot;apple sd gothic neo&quot;, &quot;noto sans korean&quot;, &quot;noto sans korean regular&quot;, &quot;noto sans cjk kr&quot;, &quot;noto sans cjk&quot;, &quot;nanum gothic&quot;, &quot;malgun gothic&quot;, dotum, arial, helvetica, MS Gothic, sans-serif; font-style: normal; color: rgb(255, 194, 0);">디독</span></div><div style="text-align: center;"><span style="font-family: AppleSDGothic, &quot;apple sd gothic neo&quot;, &quot;noto sans korean&quot;, &quot;noto sans korean regular&quot;, &quot;noto sans cjk kr&quot;, &quot;noto sans cjk&quot;, &quot;nanum gothic&quot;, &quot;malgun gothic&quot;, dotum, arial, helvetica, MS Gothic, sans-serif; font-style: normal; color: rgb(255, 194, 0); font-weight: bold;"><br></span></div><div style="text-align: center;"><span style="color: rgb(51, 51, 51); font-family: AppleSDGothic, &quot;apple sd gothic neo&quot;, &quot;noto sans korean&quot;, &quot;noto sans korean regular&quot;, &quot;noto sans cjk kr&quot;, &quot;noto sans cjk&quot;, &quot;nanum gothic&quot;, &quot;malgun gothic&quot;, dotum, arial, helvetica, MS Gothic, sans-serif; font-style: normal;">같이 읽고 싶은 친구가 떠오른다면</span></div><div style="text-align: center;">😍구독링크 복사해서 공유하기😍<span style="font-size: 12px;"><br></span><font color="#0000ff"><span style="text-decoration-style: initial; text-decoration-color: initial;"><u><a href="http://bit.ly/2FNQNpv" style="text-decoration: none; color: rgb(0, 0, 255); font-weight: normal; font-style: normal; display: inline;" target="_blank">http://bit.ly/2FNQNpv</a></u></span></font><span style="font-family: AppleSDGothic, &quot;apple sd gothic neo&quot;, &quot;noto sans korean&quot;, &quot;noto sans korean regular&quot;, &quot;noto sans cjk kr&quot;, &quot;noto sans cjk&quot;, &quot;nanum gothic&quot;, &quot;malgun gothic&quot;, dotum, arial, helvetica, MS Gothic, sans-serif; font-style: normal; color: rgb(255, 194, 0); font-weight: bold;"><br></span></div>
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+<table class="stb-block share" border="0" cellpadding="0" cellspacing="0" style="overflow: 	hidden; margin: 0px auto; padding: 0px; max-width: 630px; clear: both; background: none;border:0;" width="100%">
+	<tbody><tr>
+		<td style="padding: 15px 0 15px 0; text-align: right;margin:0 0 0 auto">
+			<div class="stb-cell-wrap-sns" style="margin: 0 auto;font-family:AppleSDGothic, apple sd gothic neo, noto sans korean, noto sans korean regular, noto sans cjk kr, noto sans cjk, nanum gothic, malgun gothic, dotum, arial, helvetica, MS Gothic, sans-serif">
+				
+
+					<span style="list-style: none; padding: 0px 3px; margin: 0px;">
+	<a href="https://stib.ee/whk1" style="padding: 0px 3px; border-width: 0px; border-color: initial; border-image: initial; text-decoration: none; display: inline-block;" target="_blank" title="웹에서 보기">
+		<img height="22px" src="https://stibee.com/assets/images/editor/share_gray_web.png" style="height: 22px; width: 85px; vertical-align: middle;" width="85">
+	</a>
+</span>
+
+
+				
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+<table class="stb-block" border="0" cellpadding="0" cellspacing="0" style="overflow: hidden; margin: 0px auto; padding: 0px; width:100%;max-width: 630px; clear: both; background: none;border:0;" width="100%">
+	<tbody><tr>
+		<td style="padding: 15px 0 15px 0;line-height: 1.8; border-width: 0px;">
+			<table class="stb-cell-wrap" border="0" cellpadding="0" cellspacing="0" style="padding: 0px 0;" width="100%">
+				<tbody><tr>
+					<td style="height: 1px; background: none; padding: 0px; border-top-width:1px;border-top-style:solid;border-top-color:#bcbcbc;" "="">
+
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+<table class="stb-block" border="0" cellpadding="0" cellspacing="0" style="overflow: hidden; margin: 0px auto; padding: 0px; width:100%;max-width: 630px; clear: both; background: none; border:0;" width="100%;">
+	<tbody><tr>
+		<td style="padding: 15px 0 15px 0; line-height: 1.8; border-width: 0px;">
+			<table class="stb-cell-wrap" border="0" cellpadding="0" cellspacing="0" style="padding: 0px 5px;table-layout:fixed" width="100%">
+				<tbody><tr>
+					<td style="padding: 0px 10px;" width="100%">
+						<div>
+							<p style="text-align: justify; margin: 0px;width:100%">
+								
+									<img alt="" src="https://img.stibee.com/15109_1568878238.png" style="width: 100%; display: inline; vertical-align: middle; max-width: 100%; border-width: 0px; border-color: initial; border-image: initial; text-align: justify;" width="610">
+								
+							</p>
+						</div>
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+
+<table class="stb-block" border="0" cellpadding="0" cellspacing="0" style="overflow: hidden; margin: 0px auto; padding: 0px; width:100%;max-width: 630px; clear: both; background: none;border:0;" width="100%">
+	<tbody><tr>
+		<td style="padding: 15px 0 15px 0; line-height: 1.8; border-width: 0px;font-size: 14px;">
+			<table class="stb-cell-wrap" border="0" cellpadding="0" cellspacing="0" style="padding: 0px 5px;" width="100%">
+				<tbody><tr>
+					<td class="stb-text-box" style="padding: 0px 10px;mso-line-height-rule: exactly;line-height:1.8;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;font-size: 14px;font-family: AppleSDGothic, apple sd gothic neo, noto sans korean, noto sans korean regular, noto sans cjk kr, noto sans cjk, nanum gothic, malgun gothic, dotum, arial, helvetica, MS Gothic, sans-serif!important; color: #333333" width="100%">
+						<div><span style="font-size: 20px; font-weight: bold;">UX/UI 스터디 모집</span></div><div><span style="font-size: 20px; font-weight: bold;"><br></span></div>디독에서 패스트캠퍼스와 함께 <span style="font-weight: bold;">UX/UI 스터디</span>를 진행합니다.&nbsp;<div>자세한 사항은 하단 링크를 참고해주세요.</div><div></div><a href="http://bit.ly/2lYVSVF" style="color: rgb(0, 0, 255); font-style: normal; font-weight: normal; text-decoration: none; display: inline;" class=" link-edited" target="_blank">http://bit.ly/2lYVSVF</a><div><br></div><div>궁금하신 사항은 메일로 문의 주시면 답변 드리겠습니다.</div><div>감사합니다.</div><div>디독 드림</div>
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+<table class="stb-block" border="0" cellpadding="0" cellspacing="0" style="overflow: hidden; margin: 0px auto; padding: 0px; width:100%;max-width: 630px; clear: both; background: none;border:0;" width="100%">
+	<tbody><tr>
+		<td style="padding: 15px 0 15px 0; line-height: 1.8; border-width: 0px;font-size: 14px;">
+			<table class="stb-cell-wrap" border="0" cellpadding="0" cellspacing="0" style="padding: 0px 5px;" width="100%">
+				<tbody><tr>
+					<td class="stb-text-box" style="padding: 0px 10px;mso-line-height-rule: exactly;line-height:1.8;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;font-size: 14px;font-family: AppleSDGothic, apple sd gothic neo, noto sans korean, noto sans korean regular, noto sans cjk kr, noto sans cjk, nanum gothic, malgun gothic, dotum, arial, helvetica, MS Gothic, sans-serif!important; color: #333333" width="100%">
+						<div><b style="font-size: 26px;"><br></b></div><div><span style="font-size: 26px;"><b>디자이너가 A/B 테스트 하는 법</b></span></div><div style="text-align: right;"><span style="font-size: 12px;"><a href="https://alistapart.com/article/a-primer-on-a-b-testing/" style="font-style: normal; font-weight: normal; text-decoration: underline; color: rgb(96, 96, 96); display: inline;" class=" link-edited" target="_blank">원문 바로보기</a></span></div>
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+<table class="stb-block" border="0" cellpadding="0" cellspacing="0" style="overflow: hidden; margin: 0px auto; padding: 0px; width:100%;max-width: 630px; clear: both; background: none;border:0;" width="100%">
+	<tbody><tr>
+		<td style="padding: 15px 0 15px 0; line-height: 1.8; border-width: 0px;font-size: 14px;">
+			<table class="stb-cell-wrap" border="0" cellpadding="0" cellspacing="0" style="padding: 0px 5px;" width="100%">
+				<tbody><tr>
+					<td class="stb-text-box" style="padding: 0px 10px;mso-line-height-rule: exactly;line-height:1.8;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;font-size: 14px;font-family: AppleSDGothic, apple sd gothic neo, noto sans korean, noto sans korean regular, noto sans cjk kr, noto sans cjk, nanum gothic, malgun gothic, dotum, arial, helvetica, MS Gothic, sans-serif!important; color: #333333" width="100%">
+						<span style="font-weight: bold; font-size: 20px;">목차</span><div><br></div><div><ol style="padding: 0px; margin: 0px 0px 0px 30px;"><li>A/B 테스트란 무엇인가?</li><li>무엇을 테스트할지 결정하기</li><li>테스트 보충하기&nbsp;&nbsp;</li><li>결과 측정하기</li><li>A/B 테스트 사례</li><li>함정(Red herrings)</li></ol></div><div><br></div>
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+<table class="stb-block" border="0" cellpadding="0" cellspacing="0" style="overflow: hidden; margin: 0px auto; padding: 0px; width:100%;max-width: 630px; clear: both; background: none;border:0;" width="100%">
+	<tbody><tr>
+		<td style="padding: 15px 0 15px 0; line-height: 1.8; border-width: 0px;font-size: 14px;">
+			<table class="stb-cell-wrap" border="0" cellpadding="0" cellspacing="0" style="padding: 0px 5px;" width="100%">
+				<tbody><tr>
+					<td class="stb-text-box" style="padding: 0px 10px;mso-line-height-rule: exactly;line-height:1.8;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;font-size: 14px;font-family: AppleSDGothic, apple sd gothic neo, noto sans korean, noto sans korean regular, noto sans cjk kr, noto sans cjk, nanum gothic, malgun gothic, dotum, arial, helvetica, MS Gothic, sans-serif!important; color: #333333" width="100%">
+						데이터는 사용자 경험에 기반하여 의사 결정을 하는 웹 디자이너들에게는 매우 중요하고 가치있는 도구이다. A/B 테스트(=스플릿 테스트)는 서로 다른 디자인, 내용, 혹은 기능의 효과를 비교할 수 있는 가장 쉬운 방법 중 하나이다. A/B 테스트는 당신이 사이트 전반에 보충해야 하는 매우 효과가 좋은 유저 경험 등을 만들어낼 수 있도록 도와준다.&nbsp;
+<div><br></div><div>하지만 통계적으로 중요한 결과에 확실하게 도달하는 것과, 착각할 만한 자료에 주의를 빼앗기지 않는 것이 중요하다. 이를 어떻게 해낼 수 있는지 살펴보자.
+</div><div><br></div><div><span style="font-size: 18px; font-weight: bold;">1.A/B 테스트란 무엇인가?&nbsp;</span></div><div><br></div><div>&nbsp;A/B 테스트에서는, 일정한 시간을 두고 페이지 일부 요소의 두 가지 중 어떤 것이 더 효율이 좋은지 비교해볼 수 있다. 유저들은 첫 번째 버전, 혹은 두 번째 버전을 보게 될 것이고, 당신은 각 설정에서 유저의 전환율이 어떻게 나타나는지를 측정하면 된다. A/B 테스트는 다른 헤드라인, CTA 멘트, 본문 길이 등의 콘텐츠를 비교하는 것에 효과적이다. 디자인과 스타일 역시 테스트 가능하다. 예를 들어, 회원 가입 버튼이 어디에 있는 게 좋은지나, 얼마나 커야 하는지 등을 테스트 해볼 수 있다. A/B 테스트는 오류 메시지가 언제, 어떻게 보여지는 게 좋은지 등, 기능적인 면에서의 변화도 측정할 수 있다.&nbsp;</div><div><br></div><div>스플릿 텍스트 역시, 홈페이지 리디자인 같은 (조금 완급 조절이 필요한)과감한 디자인 변화를 시도할 때도 유용하다. 최종본을 내기 전에, 유저들이 멀어지게 만들거나 전환율을 급격히 떨어뜨릴 것을 걱정하지 않고, 변화할 부분을 일부만 선택하여 적용해볼 수 있다.&nbsp;</div><div><br></div><div>A/B 테스트의 결과는 지속적인 영향력을 가진다. 어떤 디자인 패턴이 유저에게 가장 잘 작동하는지 알고, 사이트 전반에서 A/B 테스트에서 ‘효율적인(winning)' 것들을 반복하는 것이 중요하다. 당신의 콘텐츠의 어조, CTA, 혹은 디자인 레이아웃에 유저들이 어떻게 반응하는지 파악하면, 그것을 활용하여 새로운 콘텐츠를 만들 수 있다.&nbsp;</div><div><br></div><div>또한, 데이터는 디자이너가 아닌 의사결정권자에게도 매우 잘 작동한다. A/B 테스트는 전환율 하락과 유저 이탈률, 수익 감소 등을 방지할 수 있다. 클라이언트는 이런 종류의 데이터를 선호한다. 당신이 측정하는 전환율은 실제 제품 구매율일 수도, 링크 클릭율일 수도, 사이트 재방문, 계정 생성일 수도 있고 혹은 다른 어떤 수치화 가능한 행동들 모두 가능하다. 스플릿 테스트는 당신의 팀이 의견보다는 팩트에 근거하여 의사 결정을 내릴 수 있도록 도와준다.&nbsp;</div><div><br></div><div><span style="font-size: 20px; font-weight: bold;">2.무엇을 테스트할지 결정하기&nbsp;
+</span></div><div><br></div><div>먼저, 어떤 페이지의 요소를 테스트하고 싶은지를 결정해야 한다. A/B 버전의 테스트의 차이는 명확하게 드러나야 한다. 컬러를 아주 조금 변경한다든지, 단어의 배열을 조금 변경한다든지 혹은 무시해도 될 정도의 기능 변경이라든지 하는 것들은 좋은 A/B 테스트를 하기 어렵다. 왜냐하면 그들은 (당신의 유저 풀 사이즈에 따라)유저 경험에서도 두드러진 차이를 보이지 않을 가능성이 높기  때문이다. 버전 간 차이는 반드시 전환율에 영향을 끼쳐야 한다. 그리고 그 차이는 당신이 미래에 디자인할 때 적용하게 될 무언가가 되어야 한다. 좋은 A/B 테스트는 ‘비교할 수 있어야' 한다.&nbsp;</div><div><br></div><div><ul style="padding: 0px; margin: 0px 0px 0px 30px;"><li>완전히 다른 이메일 제목란&nbsp;</li><li>한 버전에서 패키지/벌크 딜 제공하기. &nbsp;</li><li>한 유저에게는 회원가입을 강제로 요청하고, 다른 유저에게는 옵션으로 제공하기.&nbsp;
+</li></ul></div><div><br></div><div>테스트에서 이긴 버전은 뛰어난 인사이트를 제공한다. 또한, 결과와 함께 왜 특정 버전이 이겼는가에 대한 테스터의 분석 역시 얻을 수 있다. A/B 테스트는 반드시 한 번에 하나의 변수만 시행되어야 한다. 두 가지 이상의 변수로 시행하면, 어떤 변수가 전환율에 영향을 끼쳤는지 얘기할 수 없게 된다.&nbsp;
+</div><div><br></div><div>이 단계에서는, 두 버전 사이에서 어떤 것을 비교할지 추려내야 한다. 전환율은 A/B 테스트에서 가장 흔히 사용되는 지표이긴 하지만, 당신이 흥미를 가질 다른 데이터 포인트들도 많다. 당신이 측정할 전환율은 버튼을 클릭한 유저의 비율이 될 수도, 회원 가입을 한 유저일 수도, 이메일을 열어본 유저일 수도 있다.
+&nbsp;</div><div><br></div><div><span style="font-size: 20px; font-weight: bold;">3.테스트 보충하기&nbsp;</span></div><div><br></div><div>&nbsp;A와 B 두 버전에서의 차이를 정했다면, 사이트에서 A/B 테스트를 진행할 준비를 해야 한다. 매체(웹사이트, 이메일), 플랫폼(정적 HTML, 동적 콘텐츠) 혹은 사용하는 서드파티 툴에 따라 쓸만한 A/B 테스트 툴들이 많다. 물론 본인이 제작한 솔루션을 사용해도 좋다. 당신은 하단 내용들을 컨트롤하기를 원할 것이다.:&nbsp;</div><div><br></div><div><ul style="padding: 0px; margin: 0px 0px 0px 30px;"><li>테스트를 시행한 두 버전 각각의 방문자 수&nbsp;</li><li>각 버전의 차이점&nbsp;</li><li>각 테스트에서 효과를 어떻게 측정할지&nbsp;</li></ul></div><div><br></div><div>&nbsp;만약 당신이 직접 제작한 스플릿 테스팅 솔루션을 사용한다면, GA를 활용해서 트래킹하는 것도 효과적일 것이다. GA(Google Analytics)를 사용하면 테스트 A 버전에 비해 B 버전에서 유저들이 어떻게 반응하는지, 변수를 커스터마이징하여 설정할 수 있다. 이는 당신의 주요 전환율 지표 뿐만 아니라, 새로운 지표들을 발굴하게 도와줄 것이다. 예를 들면, “다른 나라에 있는 유저들은 평균 유저들에 비해 다른 반응을 보이는가?”&nbsp;<br></div><div><br></div><div>GA에서 맞춤 설정을 하기 위해, 자바스크립트에 하단 문장을 추가해보자.&nbsp;<br></div><div><div><span style="color: rgb(34, 34, 34); font-size: 16px; text-decoration: underline;">_gaq.push([‘_setCustomVar’,1,‘testname’,‘testversion’,2]);</span></div></div><div><span style="color: rgb(34, 34, 34); font-size: 16px; text-decoration: underline;"><br></span></div><div><div>맞춤 변수 설정에 대한 정보는 <a href="https://developers.google.com/analytics/devguides/collection/gajs/gaTrackingCustomVariables?csw=1" style="color: rgb(0, 0, 255); display: inline;" target="_blank">Google documentation</a>에서 더 찾아볼 수 있다. 위 문장에서 testname은 A/B 테스트의 제목을 뜻하고, testversion은 이 버전이 A인지 B인지 구분해주는 역할을 한다. 당신이 보기에 직관적인 이름을 사용하면 된다. 예를 들어, 내가 홈페이지에서 짧은 텍스트와 긴 텍스트를 A/B 테스트할 때는 이렇게 사용했다.</div></div><div><br></div><div><div>A 버전</div><div><span style="color: rgb(34, 34, 34); font-size: 16px; text-decoration: underline;">_gaq.push([‘_setCustomVar’,1,‘Homepage Content Test’,‘Short’,2]);</span></div><br><div>B버전</div><div><span style="color: rgb(34, 34, 34); font-size: 16px; text-decoration: underline;">_gaq.push([‘_setCustomVar’,1,‘Homepage Content Test’,‘Long’,2]);</span></div></div><div><span style="color: rgb(34, 34, 34); font-size: 16px; text-decoration: underline;"><br></span></div><div><div>GA에서 이러한 정보를 모으는 것은 전환율 뿐만 아니라, 사이트에 방문한 시각, 계정 생성 횟수 등 더 많은 정보를 얻을 수 있게 해준다. 데이터 수집을 시작한 후 GA에서 이러한 변수를 보려면, 방문자 -&gt; 사용자 지정 변수로 이동하여 이전에 선택한 테스트 제목을 선택하면 된다.&nbsp;</div><br><div><span style="font-weight: bold; font-size: 20px;">4.결과 측정하기</span></div><div>어느 정도 기간이 흐른 후에(보통 몇 주 정도, 트래픽에 따라 달라지기는 하지만), 테스트 결과를 확인해보고, 각 버전별로 전환율을 비교해보자. 각 A/B 테스트는 당신이 그 결과를 신뢰하기 전에 통계적으로 유의미한 수치까지 도달해야 한다. 신뢰도가 95%까지 도달했는지는 인터넷에서 다양한 계산 방법들을 찾아서 확인하면 된다. 중요도는 각 버전의 테스트에 참여한 유저 총합을 기준으로 계산된다. 유저가 너무 적거나 전환 수가 낮으면, 어느 쪽이 더 좋은지 가리기 전에 데이터를 더 모아야 한다.&nbsp;</div><br><div><a href="http://drpete.co/split-test-calculator" style="color: rgb(0, 0, 255); display: inline;" target="_blank">Usereffect.com’s calculator</a>를 사용하면 얼마나 많은 유저들이 95%의 신뢰도에 도달했는지 알 수 있을 것이다. 테스트를 너무 빨리 끝내는 것은 “이긴"버전이 최선의 선택이 아니라는 뜻일 수도 있다. 그러니 신중하게 측정해보자.</div><br><div>당신의 테스트를 보는 사람들이 많아질수록, 테스트는 더 빠르게 진행된다. 그러므로 사이트 내에서 트래픽이 높은 영역에서 A/B 테스트를 진행하는 것이, 빠르게 통계적으로 유의미한 수치에 도달하는 데에 있어서는 중요하다. 스플릿 테스트를 진행하면 진핼할수록, 테스트에 참여한 사람이 더 많을수록, 신뢰도 95%에 도달하기가 쉽다는 것을 알게 될 것이다.</div><br><div><span style="font-weight: bold; font-size: 20px;">5.A/B 테스트 사례</span></div><div>내가 커머스 사이트의 개발자라고 가정해보자. A/B 테스트는 한 번에 한 페이지의 요소를 테스트하기에 완벽한 방법이므로, 유저의 계정에 제품명을 굵게 표시할 것인지 안할 것인지에 대한 A/B 테스트를 기획했다. 우리는 UI에 유저들이 그들의 제품이 리뉴얼된 것을 관리하기 쉽도록 기다린 제품 리스트를 만들었지만, 유저들이 그것을 빠르게 스캔하기 쉬운지에 대해선 확신할 수 없었다. 버전 A에서는, 리스트에 있는 아이템이 볼드처리되게 만들었다.</div><br></div><div><div><span style="color: rgb(34, 34, 34); font-style: italic; font-size: 18px;">service name, </span><span style="color: rgb(34, 34, 34); font-weight: bold; font-style: italic; font-size: 18px;">yourdomainname.com</span></div><br><div>반면에 B 버전에서는 이렇게 만들었다.</div><br><div><span style="color: rgb(34, 34, 34); font-style: italic; font-size: 18px;">service name, yourdomainname.com</span></div><br><div>신뢰도 95%에 도달한 뒤에 나온 결과는 다음과 같다.</div></div>
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+<table class="stb-block" border="0" cellpadding="0" cellspacing="0" style="overflow: hidden; margin: 0px auto; padding: 0px; width:100%;max-width: 630px; clear: both; background: none; border:0;" width="100%;">
+	<tbody><tr>
+		<td style="padding: 15px 0 15px 0; line-height: 1.8; border-width: 0px;">
+			<table class="stb-cell-wrap" border="0" cellpadding="0" cellspacing="0" style="padding: 0px 5px;table-layout:fixed" width="100%">
+				<tbody><tr>
+					<td style="padding: 0px 10px;" width="100%">
+						<div>
+							<p style="text-align: justify; margin: 0px;width:100%">
+								
+									<img alt="" src="https://img.stibee.com/15109_1568878714.png" style="width: 100%; display: inline; vertical-align: middle; max-width: 100%; border-width: 0px; border-color: initial; border-image: initial; text-align: justify;" width="610">
+								
+							</p>
+						</div>
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+
+<table class="stb-block" border="0" cellpadding="0" cellspacing="0" style="overflow: hidden; margin: 0px auto; padding: 0px; width:100%;max-width: 630px; clear: both; background: none;border:0;" width="100%">
+	<tbody><tr>
+		<td style="padding: 15px 0 15px 0; line-height: 1.8; border-width: 0px;font-size: 14px;">
+			<table class="stb-cell-wrap" border="0" cellpadding="0" cellspacing="0" style="padding: 0px 5px;" width="100%">
+				<tbody><tr>
+					<td class="stb-text-box" style="padding: 0px 10px;mso-line-height-rule: exactly;line-height:1.8;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;font-size: 14px;font-family: AppleSDGothic, apple sd gothic neo, noto sans korean, noto sans korean regular, noto sans cjk kr, noto sans cjk, nanum gothic, malgun gothic, dotum, arial, helvetica, MS Gothic, sans-serif!important; color: #333333" width="100%">
+						<div>버전 A가 명백한 승리를 거뒀고, 유저들이 제품 리스트에서 도메인명을 스캔하는 경향이 있다는 인사이트를 얻게 되었다.&nbsp;</div><br><div>A/B 테스트를 만들 때, 유저 상호작용은 점검해봐야 할 또 다른 측정 수단이기도 하다. 한 테스트에서는 콘텐츠의 톤을 공격성(공격적인 어조)을 기준으로 비교하고, 방문자의 패턴이 어떻게 바뀌는지 봤다.</div><br><div>버전 A:</div><div><span style="color: rgb(34, 34, 34); font-style: italic; font-size: 18px;">Don’t miss out on becoming a VIP user. Sign up now.</span></div><div>VIP 유저가 되는 것을 놓치지 마세요. 지금 가입하세요.</div><br><div>버전 B:</div><div><span style="color: rgb(34, 34, 34); font-style: italic; font-size: 18px;">Don’t be an idiot; become a VIP!</span></div><div>바보같이 굴지말고, VIP 등록하세요!</div><br><div>랜딩페이지에서 A/B 테스트를 할 때, 볼만한 지표로 이탈률(Bounce rate)이 있다. 숫자로 알 수 있듯이, 각 버전의 이탈률은 확연하게 차이났다.&nbsp;</div>
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+<table class="stb-block" border="0" cellpadding="0" cellspacing="0" style="overflow: hidden; margin: 0px auto; padding: 0px; width:100%;max-width: 630px; clear: both; background: none; border:0;" width="100%;">
+	<tbody><tr>
+		<td style="padding: 15px 0 15px 0; line-height: 1.8; border-width: 0px;">
+			<table class="stb-cell-wrap" border="0" cellpadding="0" cellspacing="0" style="padding: 0px 5px;table-layout:fixed" width="100%">
+				<tbody><tr>
+					<td style="padding: 0px 10px;" width="100%">
+						<div>
+							<p style="text-align: justify; margin: 0px;width:100%">
+								
+									<img alt="" src="https://img.stibee.com/15109_1568878784.png" style="width: 100%; display: inline; vertical-align: middle; max-width: 100%; border-width: 0px; border-color: initial; border-image: initial; text-align: justify;" width="610">
+								
+							</p>
+						</div>
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+
+<table class="stb-block" border="0" cellpadding="0" cellspacing="0" style="overflow: hidden; margin: 0px auto; padding: 0px; width:100%;max-width: 630px; clear: both; background: none;border:0;" width="100%">
+	<tbody><tr>
+		<td style="padding: 15px 0 15px 0; line-height: 1.8; border-width: 0px;font-size: 14px;">
+			<table class="stb-cell-wrap" border="0" cellpadding="0" cellspacing="0" style="padding: 0px 5px;" width="100%">
+				<tbody><tr>
+					<td class="stb-text-box" style="padding: 0px 10px;mso-line-height-rule: exactly;line-height:1.8;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;font-size: 14px;font-family: AppleSDGothic, apple sd gothic neo, noto sans korean, noto sans korean regular, noto sans cjk kr, noto sans cjk, nanum gothic, malgun gothic, dotum, arial, helvetica, MS Gothic, sans-serif!important; color: #333333" width="100%">
+						<div>우리는 자연스레 지나치게 공격적인 문장은 주의하게 됐다. 이탈률 역시 공격적인 어조가 유저들을 떠내보낸다고 수치적으로 나타나고 있다. 가끔, 특정 데이터가 통계적으로 유의미한 수치에 도달했을 때, 그 지표에 대해서 더 파고들고 싶어질 때가 있다. 다양한 유저군을 가지고 있을 때는 더더욱. 다른 콘텐츠 테스트에서, 나는 GA를 사용하여 나라별로 이탈률을 구분해보았다.</div>
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+<table class="stb-block" border="0" cellpadding="0" cellspacing="0" style="overflow: hidden; margin: 0px auto; padding: 0px; width:100%;max-width: 630px; clear: both; background: none; border:0;" width="100%;">
+	<tbody><tr>
+		<td style="padding: 15px 0 15px 0; line-height: 1.8; border-width: 0px;">
+			<table class="stb-cell-wrap" border="0" cellpadding="0" cellspacing="0" style="padding: 0px 5px;table-layout:fixed" width="100%">
+				<tbody><tr>
+					<td style="padding: 0px 10px;" width="100%">
+						<div>
+							<p style="text-align: justify; margin: 0px;width:100%">
+								
+									<img alt="" src="https://img.stibee.com/15109_1568878837.png" style="width: 100%; display: inline; vertical-align: middle; max-width: 100%; border-width: 0px; border-color: initial; border-image: initial; text-align: justify;" width="610">
+								
+							</p>
+						</div>
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+
+<table class="stb-block" border="0" cellpadding="0" cellspacing="0" style="overflow: hidden; margin: 0px auto; padding: 0px; width:100%;max-width: 630px; clear: both; background: none;border:0;" width="100%">
+	<tbody><tr>
+		<td style="padding: 15px 0 15px 0; line-height: 1.8; border-width: 0px;font-size: 14px;">
+			<table class="stb-cell-wrap" border="0" cellpadding="0" cellspacing="0" style="padding: 0px 5px;" width="100%">
+				<tbody><tr>
+					<td class="stb-text-box" style="padding: 0px 10px;mso-line-height-rule: exactly;line-height:1.8;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;font-size: 14px;font-family: AppleSDGothic, apple sd gothic neo, noto sans korean, noto sans korean regular, noto sans cjk kr, noto sans cjk, nanum gothic, malgun gothic, dotum, arial, helvetica, MS Gothic, sans-serif!important; color: #333333" width="100%">
+						<div>버전 B는 국가와 관계 없이 일관된 이탈률을 보였으나, A의 경우 두 유저 그룹의 반응이 다르게 나타난다는 것을 알게 되었다. 추가적인 테스트를 진행할 필요를 느꼈다.&nbsp;</div><br><div>디자인과 콘텐츠 테스트에서는, 추가적으로 기능적인 실험도 할 수 있다. 우리는 제품을 장바구니에 간편하게 추가할 수 있는 버튼이 있다. A/B 테스트에서, 같은 언어와 스타일의 버튼을 사용했다. 유일한 다른 점은 A 버전은 1년 가격으로 추가되는 것이고, B 버전은 2년 가격으로 추가되는 것이었다.</div><br><div>우리의 목표는 두 버전 사이의 커머스 전환율과 평균 주문율을 측정하는 것이었다. 우리는 B 버전을 경험한 사람들이 장바구니에 들어있는 제품의 기간을 1년으로 낮출지, 생각했던 것보다 높은 가격을 보고 장바구니에서 삭제할지 등을 확신할 수 없었다. 우리는 버전 B로 더 많은 수익을 창출하기를 바랐으나, 테스트를 해보아야 했다. 통계적으로 유의미한 수준의 데이터가 모인 후에, 우리는 다음과 같은 결과를 얻어냈다.</div>
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+<table class="stb-block" border="0" cellpadding="0" cellspacing="0" style="overflow: hidden; margin: 0px auto; padding: 0px; width:100%;max-width: 630px; clear: both; background: none; border:0;" width="100%;">
+	<tbody><tr>
+		<td style="padding: 15px 0 15px 0; line-height: 1.8; border-width: 0px;">
+			<table class="stb-cell-wrap" border="0" cellpadding="0" cellspacing="0" style="padding: 0px 5px;table-layout:fixed" width="100%">
+				<tbody><tr>
+					<td style="padding: 0px 10px;" width="100%">
+						<div>
+							<p style="text-align: justify; margin: 0px;width:100%">
+								
+									<img alt="" src="https://img.stibee.com/15109_1568878901.png" style="width: 100%; display: inline; vertical-align: middle; max-width: 100%; border-width: 0px; border-color: initial; border-image: initial; text-align: justify;" width="610">
+								
+							</p>
+						</div>
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+
+<table class="stb-block" border="0" cellpadding="0" cellspacing="0" style="overflow: hidden; margin: 0px auto; padding: 0px; width:100%;max-width: 630px; clear: both; background: none;border:0;" width="100%">
+	<tbody><tr>
+		<td style="padding: 15px 0 15px 0; line-height: 1.8; border-width: 0px;font-size: 14px;">
+			<table class="stb-cell-wrap" border="0" cellpadding="0" cellspacing="0" style="padding: 0px 5px;" width="100%">
+				<tbody><tr>
+					<td class="stb-text-box" style="padding: 0px 10px;mso-line-height-rule: exactly;line-height:1.8;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;font-size: 14px;font-family: AppleSDGothic, apple sd gothic neo, noto sans korean, noto sans korean regular, noto sans cjk kr, noto sans cjk, nanum gothic, malgun gothic, dotum, arial, helvetica, MS Gothic, sans-serif!important; color: #333333" width="100%">
+						<div>버전 B(2년 가격으로 장바구니에 추가되는 버전)이 명백한 승리를 거뒀다. 우리는 이 인사이트를 활용하여 사이트 내 장바구니 추가 버튼을 전면 개편했다.&nbsp;</div><br><div><span style="font-weight: bold; font-size: 20px;">6.함정(Red herrings, 주의를 다른 곳으로 돌리게 만드는 것)</span></div><div>가끔, A/B 테스트 데이터가 결론에 이르지 못할 때가 있다. 우리는 최근에 어떤 콘텐츠가 더 효율이 좋은지를 판단하기 위해 테스트를 진행했다. 나는 한 버전이 다른 버전을 월등한 비중으로 이기리라고 확신하고 있었다. 하지만, 두 버전 모두 전환율, 페이지뷰, 평균 주문율이 동일한 수치로 나왔다. 몇 주간 테스트를 운영한 후, 우리는 디자인을 변경해야 할 치명적인 데이터를 얻을 수 없음을 깨닫고, 테스트를 그만두고 다음 테스트로 넘어갔다. 중립적인 결과를 얻게 되면, 둘 중 하나를 선택할 수야 있지만, 한 버전이 다른 버전보다 ‘더 좋다'는 것을 데이터로써 증명할 방법은 없을 것이다.</div><br><div>A/B 테스트가 전부라고 믿는 것을 경계하자. A/B 테스트가 모든 차이를 보여주는 것은 아니다. 최선의 방안을 찾기 위해 테스트에 충분한 시간을 들이자(충분한 모수를 모집하기 위해, 나는 최소 3주 정도 소요하는 것을 선호하는 편이다.). 테스트가 성공적이지 않은 것 같다면, 그만두고 다른 테스트를 시행해보자.&nbsp;</div><br><div>테스트 해보고 싶은 다양한 요소들을 계속해서 리스트로 작성하는 습관을 들이자. 새로운 것을 배우는 데에 도움이 될 것이고, 디자인 결정에 있어서 부딪히는 많은 문제들을 쉽게 해결할 수 있도록 도와줄 것이다. “A/B 테스트 리스트에 추가하겠다"는 말은 의사 결정자들을 설득할 때 유용하게 쓰일 수 있다.</div>
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+<table class="stb-block" border="0" cellpadding="0" cellspacing="0" style="overflow: hidden; margin: 0px auto; padding: 0px; width:100%;max-width: 630px; clear: both; background: none;border:0;" width="100%">
+	<tbody><tr>
+		<td style="padding: 15px 0 15px 0;line-height: 1.8; border-width: 0px;">
+			<table class="stb-cell-wrap" border="0" cellpadding="0" cellspacing="0" style="padding: 0px 0;" width="100%">
+				<tbody><tr>
+					<td style="height: 1px; background: none; padding: 0px; border-top-width:1px;border-top-style:dashed;border-top-color:#bcbcbc;" "="">
+
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+<table class="stb-block" border="0" cellpadding="0" cellspacing="0" style="overflow: hidden; margin: 0px auto; padding: 0px; width:100%;max-width: 630px; clear: both; background: none;border:0;" width="100%">
+	<tbody><tr>
+		<td style="padding: 15px 0 15px 0; line-height: 1.8; border-width: 0px;font-size: 14px;">
+			<table class="stb-cell-wrap" border="0" cellpadding="0" cellspacing="0" style="padding: 0px 5px;" width="100%">
+				<tbody><tr>
+					<td class="stb-text-box" style="padding: 0px 10px;mso-line-height-rule: exactly;line-height:1.8;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;font-size: 14px;font-family: AppleSDGothic, apple sd gothic neo, noto sans korean, noto sans korean regular, noto sans cjk kr, noto sans cjk, nanum gothic, malgun gothic, dotum, arial, helvetica, MS Gothic, sans-serif!important; color: #333333" width="100%">
+						<span style="font-size: 14px;">저자 :&nbsp;</span><a href="https://alistapart.com/author/larahogan/" style="color: rgb(0, 0, 255); font-weight: normal; font-style: normal; text-decoration: none; display: inline;" target="_blank">Lara Hogan</a><br><span style="font-size: 14px;">원문 링크:&nbsp;</span><a href="https://alistapart.com/article/a-primer-on-a-b-testing/" style="font-size: 12px; color: rgb(0, 0, 255); display: inline;" target="_blank">https://alistapart.com/article/a-primer-on-a-b-testing/</a><br><span style="color: rgb(255, 0, 0); font-size: 12px;">*무단 전재 및 재배포 금지(링크 공유 가능)</span>
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+<table class="stb-block" border="0" cellpadding="0" cellspacing="0" style="overflow: hidden; margin: 0px auto; padding: 0px; width:100%;max-width: 630px; clear: both; background: none;border:0;" width="100%">
+	<tbody><tr>
+		<td style="padding: 15px 0 15px 0;line-height: 1.8; border-width: 0px;">
+			<table class="stb-cell-wrap" border="0" cellpadding="0" cellspacing="0" style="padding: 0px 0;" width="100%">
+				<tbody><tr>
+					<td style="height: 1px; background: none; padding: 0px; border-top-width:1px;border-top-style:solid;border-top-color:#bcbcbc;" "="">
+
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+<table class="stb-block" border="0" cellpadding="0" cellspacing="0" style="overflow: hidden; margin: 0px auto; padding: 0px; width:100%;max-width: 630px; clear: both; background: none; border:0;" width="100%;">
+	<tbody><tr>
+		<td style="padding: 15px 0 15px 0; line-height: 1.8; border-width: 0px;">
+			<table class="stb-cell-wrap" border="0" cellpadding="0" cellspacing="0" style="padding: 0px 5px;table-layout:fixed" width="100%">
+				<tbody><tr>
+					<td style="padding: 0px 10px;" width="100%">
+						<div>
+							<p style="text-align: justify; margin: 0px;width:100%">
+								
+									<img alt="" src="https://img.stibee.com/15109_1563956059.png" style="width: 100%; display: inline; vertical-align: middle; max-width: 100%; border-width: 0px; border-color: initial; border-image: initial; text-align: justify;" width="610">
+								
+							</p>
+						</div>
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+
+<table class="stb-block" border="0" cellpadding="0" cellspacing="0" style="overflow: hidden; margin: 0px auto; padding: 0px; width:100%;max-width: 630px; clear: both; background: #fff5d6;border:0;" width="100%">
+	<tbody><tr>
+		<td style="padding: 15px 0 15px 0; line-height: 1.8; border-width: 0px;font-size: 14px;">
+			<table class="stb-cell-wrap" border="0" cellpadding="0" cellspacing="0" style="padding: 0px 5px;" width="100%">
+				<tbody><tr>
+					<td class="stb-text-box" style="padding: 0px 10px;mso-line-height-rule: exactly;line-height:1.8;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;font-size: 14px;font-family: AppleSDGothic, apple sd gothic neo, noto sans korean, noto sans korean regular, noto sans cjk kr, noto sans cjk, nanum gothic, malgun gothic, dotum, arial, helvetica, MS Gothic, sans-serif!important; color: #333333" width="100%">
+						<div><span style="font-size: 16px;"><span style="font-weight: bold;">[2019.09.19]&nbsp;</span><br></span></div><div></div><div>A/B 테스트의 중요성은 익히 알고들 계시겠지만, 정작 시도할 때는 어떤 데이터가 필요한지, 어떤 지표를 사용해야하는지에 대한 가이드라인이 없어 힘든 경우가 많을 거라 예상합니다.&nbsp;</div><div><br></div><div>오늘 보내드리는 아티클은 A/B 테스트가 진행되는 전반적인 프로세스와 애로사항이 발생했을 시(중립적인 결과 등) 대처법 등을 개괄적으로 훑는 내용입니다.&nbsp;</div><div><br></div><div>개인적으로도 관심이 많은 키워드인데, 이번 글은 구독자 분께서 요청해주신 글이라 더 의미가 깊었습니다. 앞으로 A/B 테스트에 대한 딥한 아티클도 종종 소개해드리겠습니다.&nbsp;</div><div><div><br></div><div><span style="color: rgb(51, 51, 51); font-weight: bold; font-size: 20px;">[디독 도네이션 OPEN]&nbsp;</span><br></div><div><br><div><span style="font-weight: bold;">오늘 읽으신 아티클이 마음에 드셨다면,</span> 작은 금액이라도 디독의 서비스 유지를 위해 후원해주시면 감사하겠습니다. :)<br><br><span style="font-weight: bold; font-size: 16px;">카카오뱅크  3333 123 7696 03  (김강령)<br></span><span style="font-size: 12px;"><br>*후원해주신 금액은 전액 서비스 운영(메일 발송 솔루션 비용)에 사용됩니다. <br>*후원자(입금자명) 리스트 기입을 원하지 않으시는 분은 메일로 말씀해주세요.</span></div><div style="text-align: center;"><br></div></div></div>
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+<table class="stb-block" border="0" cellpadding="0" cellspacing="0" style="overflow: hidden; margin: 0px auto; padding: 0px; width:100%;max-width: 630px; clear: both; background: #fff5d6;border:0;" width="100%">
+	<tbody><tr>
+		<td style="padding: 15px 0 15px 0;line-height: 1.8; border-width: 0px;">
+			<table class="stb-cell-wrap" border="0" cellpadding="0" cellspacing="0" style="padding: 0px 0;" width="100%">
+				<tbody><tr>
+					<td style="height: 1px; background: none; padding: 0px; border-top-width:1px;border-top-style:solid;border-top-color:#ffc200;" "="">
+
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+<table class="stb-block" border="0" cellpadding="0" cellspacing="0" style="overflow: hidden; margin: 0px auto; padding: 0px; width:100%;max-width: 630px; clear: both; background: #fff5d6;border:0;" width="100%">
+	<tbody><tr>
+		<td style="padding: 5px 0 20px 0; line-height: 1.8; border-width: 0px;font-size: 14px;">
+			<table class="stb-cell-wrap" border="0" cellpadding="0" cellspacing="0" style="padding: 0px 5px;" width="100%">
+				<tbody><tr>
+					<td class="stb-text-box" style="padding: 0px 10px;mso-line-height-rule: exactly;line-height:1.8;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;font-size: 14px;font-family: AppleSDGothic, apple sd gothic neo, noto sans korean, noto sans korean regular, noto sans cjk kr, noto sans cjk, nanum gothic, malgun gothic, dotum, arial, helvetica, MS Gothic, sans-serif!important; color: #333333" width="100%">
+						<div><div><br></div><div style="text-align: left;"><span style="font-size: 14px; font-weight: bold;"><span style="color: rgb(51, 51, 51);">8월 후원해주신 분들</span><br></span></div><div style="text-align: left;"><span style="font-size: 14px; font-style: italic; color: rgb(41, 41, 41);">김영석, 김혜연, 박철순, 이주임, 임용태, 구보명, 유동현, 성수진, 구재환, 유신애, 이은우, 홍순기, 이도후, 임종헌, 김규범, 김주양, 조용준, 김지연, 김민주, 박지현, 박은지, 이수연, 조은하, 박상욱, 김하연, 임주희, 홍기현, 하현우, 송지은, 고애리, 유가은, 박주현, 임준평, 장윤선 외 19분&nbsp;</span></div></div><div style="text-align: left;"><span style="color: rgb(33, 33, 33);"><span style="font-size: 14px;"><br></span></span></div><div style="text-align: left;">후원해주신 분들, 정말 감사합니다! 덕분에 서비스를 유지할 수 있게 되었습니다. :)<br></div>
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+<table class="stb-block" border="0" cellpadding="0" cellspacing="0" style="overflow: hidden; margin: 0px auto; padding: 0px; width:100%;max-width: 630px; clear: both; background: none;border:0;" width="100%">
+	<tbody><tr>
+		<td style="padding: 15px 0 15px 0;line-height: 1.8; border-width: 0px;">
+			<table class="stb-cell-wrap" border="0" cellpadding="0" cellspacing="0" style="padding: 0px 0;" width="100%">
+				<tbody><tr>
+					<td style="height: 1px; background: none; padding: 0px; border-top-width:1px;border-top-style:solid;border-top-color:#bcbcbc;" "="">
+
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+<table class="stb-block" border="0" cellpadding="0" cellspacing="0" style="overflow: hidden; margin: 0px auto; padding: 0px; width:100%;max-width: 630px; clear: both; background: none;border:0;" width="100%">
+	<tbody><tr>
+		<td style="padding: 15px 0 15px 0; line-height: 1.8; border-width: 0px;font-size: 14px;">
+			<table class="stb-cell-wrap" border="0" cellpadding="0" cellspacing="0" style="padding: 0px 5px;" width="100%">
+				<tbody><tr>
+					<td class="stb-text-box" style="padding: 0px 10px;mso-line-height-rule: exactly;line-height:1.8;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;font-size: 14px;font-family: AppleSDGothic, apple sd gothic neo, noto sans korean, noto sans korean regular, noto sans cjk kr, noto sans cjk, nanum gothic, malgun gothic, dotum, arial, helvetica, MS Gothic, sans-serif!important; color: #333333" width="100%">
+						피드백은 d.dok.newsletter@gmail.com 으로 남겨주세요. 추천하고 싶은 영문 아티클 역시 링크를 남겨주시면 검토 후 번역하여 보내드립니다.
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+<table class="stb-block share" border="0" cellpadding="0" cellspacing="0" style="overflow: 	hidden; margin: 0px auto; padding: 0px; max-width: 630px; clear: both; background: none;border:0;" width="100%">
+	<tbody><tr>
+		<td style="padding: 15px 0 15px 0; text-align: center;margin:0 auto 0 auto">
+			<div class="stb-cell-wrap-sns" style="margin: 0 auto;font-family:AppleSDGothic, apple sd gothic neo, noto sans korean, noto sans korean regular, noto sans cjk kr, noto sans cjk, nanum gothic, malgun gothic, dotum, arial, helvetica, MS Gothic, sans-serif">
+				
+
+					<span style="list-style: none; padding: 0px 3px; margin: 0px;">
+	<a href="https://www.facebook.com/sharer/sharer.php?u=https://stib.ee/whk1" style="padding: 0px 3px; border-width: 0px; border-color: initial; border-image: initial; text-decoration: none; display: inline-block;" target="_blank" title="페이스북에 공유하기">
+		<img height="22px" src="https://stibee.com/assets/images/editor/share_gray_facebook.png" style="height: 22px; width: 69px; vertical-align: middle;" width="69">
+	</a>
+</span>
+
+
+				
+			</div>
+		</td>
+	</tr>
+</tbody></table>
+<table class="stb-block" border="0" cellpadding="0" cellspacing="0" style="overflow: hidden; margin: 0px auto; padding: 0px; width:100%;max-width: 630px; clear: both; background: none;border:0;" width="100%">
+	<tbody><tr>
+		<td style="padding: 15px 0 15px 0; border-width: 0px;">
+			<table class="stb-cell-wrap" border="0" cellpadding="0" cellspacing="0" style="padding: 0px 5px;" width="100%">
+				<tbody><tr>
+					<td class="stb-text-box" width="100%" style="padding: 0px 10px;mso-line-height-rule: exactly;line-height:1.8;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;font-size: 12px;font-family: AppleSDGothic, apple sd gothic neo, noto sans korean, noto sans korean regular, noto sans cjk kr, noto sans cjk, nanum gothic, malgun gothic, dotum, arial, helvetica, MS Gothic, sans-serif!important;text-align: center; color: #606060">
+							디독<br>d.dok.newsletter@gmail.com<br>- -<br><a href="$%unsubscribe%$" target="_blank" style="display: inline;">수신거부</a>&nbsp;<a href="$%unsubscribe%$" target="_blank" style="display: inline;">Unsubscribe</a><b></b>
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+
+<table class="stb-block" border="0" cellpadding="0" cellspacing="0" style="overflow: hidden; margin: 0px auto; padding: 0px; width:100%;max-width: 620px; clear: both; border:0; background:none;" width="100%">
+	<tbody><tr>
+		<td class="sponsor" style="text-align:center;padding: 40px 0 40px 0;">
+			<a href="https://www.stibee.com/?utm_source=stibee&utm_campaign=sponsorbanner&utm_medium=email&uid=ZC5kb2submV3c2xldHRlckBnbWFpbC5jb20" target="_blank" style="text-decoration: none; display: inline;">
+				<span style="font-size: 12px;color:#8c8c8c;font-weight: normal;vertical-align: text-top;">이 메일은 스티비로 만들었습니다</span>
+				<img src="https://stibee.com/assets/images/editor/sponsor_icon.png" alt="" border="0" style="width:11px;height:13px;vertical-align: text-top;" width="13" height="13">
+			</a>
+		</td>
+	</tr>
+</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+
+</body>
+</html>
+
+		</div>
+	</div>
+	<script>
+		var meta = document.querySelectorAll('.public-email meta');		
+		for (var i = 0; i < meta.length; i++) { 
+			document.querySelector('head').appendChild(meta[i]);			
+		}
+
+		var style = document.querySelectorAll('.public-email style');
+		for (var j = 0; j < style.length; j++) { 
+			document.querySelector('head').appendChild(style[j]);			
+		}
+
+		var container = document.querySelector('.public-email .inner .stb-container-full');
+		if (container !== null) {
+			document.querySelector('.public-email').innerHTML = container.outerHTML;
+		}
+
+		var bgf = document.getElementsByClassName('stb-container-full');
+		if (bgf.length !== 0) {
+			document.body.classList.add("bgf");
+			var root = document.getElementsByTagName('html')[0];
+			root.setAttribute('class', 'bgf');
+		}
+	</script>
+</body>
+</html>
