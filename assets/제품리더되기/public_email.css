@@ -1,0 +1,32 @@
+* {padding: 0;}
+html, 
+body {
+	margin: 0;
+	/* overflow: hidden; */
+}
+/* html.bgf
+body.bgf {
+	overflow: hidden;
+} */
+.public-email {background: #fff;padding: 0;}
+
+.stb-container-full {
+	/* height: 100vh; */
+	box-sizing: border-box;
+	/* overflow-y: auto; */
+}
+
+@media only screen and (max-width: 640px){
+	.stb-left-cell,
+	.stb-right-cell {max-width:100%!important;width:100%!important;}
+	.stb-container {width: 94%!important}
+
+	.stb-container-full {
+		padding-bottom: 100px!important;
+	}
+}
+
+a[href="$%unsubscribe%$"],
+a[href="$%permalink%$"] {
+	pointer-events:none;
+}
